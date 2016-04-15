@@ -1,7 +1,7 @@
 <?php
     $servername = "localhost";
-    $username = "root";
-    $password = "mysql_demo_indore";
+    $username = "";
+    $password = "";
     $db = "indore";
     // Create connection
     $conn = new mysqli($servername, $username, $password,$db);
