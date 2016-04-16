@@ -11,6 +11,10 @@
 
 **php5-mysql** This package provides modules for MySQL database connections directly from PHP scripts.
 
+> sudo mysql_install_db
+
+> sudo /usr/bin/mysql_secure_installation
+
 ## 3) Install php
 > sudo apt-get install php5 libapache2-mod-php5 php5-mcrypt
 
