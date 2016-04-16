@@ -28,6 +28,12 @@
 
 > sudo apt-get install phpmyadmin
 
+> sudo php5enmod mcrypt
+
+> sudo service apache2 restart
+
+
+
 # Create public private key
 
 > openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout filename.key -out filename.pem
